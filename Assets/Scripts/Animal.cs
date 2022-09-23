@@ -10,11 +10,13 @@ public class Animal : MonoBehaviour
     {
         // make the animal walk
         // Player.Health -= 10;
+        Debug.Log("Animal is walking");
     }
 
     // ABSTRACTION - functions abstract out complicated logic
     public virtual void Jump()
     {
         // make the animal jump
+        Debug.Log("Animal is jumping");
     }
 }
