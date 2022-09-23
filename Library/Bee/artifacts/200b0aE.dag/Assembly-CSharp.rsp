@@ -353,9 +353,9 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Characters/Rabbits/Demo/Scripts/AnimatorParamatersChange.cs"
 "Assets/Scripts/Animal.cs"
-"Assets/Scripts/Fox.cs"
+"Assets/Scripts/FoxController.cs"
 "Assets/Scripts/JumpButtonController.cs"
-"Assets/Scripts/Rabbit.cs"
+"Assets/Scripts/RabbitController.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/WalkButtonController.cs"
 -langversion:9.0
