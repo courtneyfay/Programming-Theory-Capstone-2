@@ -19,7 +19,6 @@ public class JumpButtonController : MonoBehaviour
     [SerializeField]
     private void ClickJump()
     {
-        Debug.Log("hitting JUMP button controller");
         foxController.Jump();
         rabbitController.Jump();
     }

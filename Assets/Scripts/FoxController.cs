@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FoxController : Animal
 {
+    [SerializeField] private Animator animator;
+
     private Rigidbody rb;
     
     private void Start()
@@ -14,12 +16,10 @@ public class FoxController : Animal
     // POLYMORPHISM - Fox class overrides virtual methods inherited from Animal class
     public override void Walk() 
     {
-        // Player.Health -= 2;
-        // CommitPettyTheft();
-        Debug.Log("Fox is walking");
+        animator.SetTrigger("walk");
     }
     public override void Jump()
     {
-        rb.AddForce(Vector3.up * 700f);
+        animator.SetTrigger("jump");
     }
 }

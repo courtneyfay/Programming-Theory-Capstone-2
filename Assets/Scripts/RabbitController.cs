@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RabbitController : Animal
 {
+    [SerializeField] private Animator animator;
+
     private Rigidbody rb;
     
     private void Start()
@@ -14,9 +16,7 @@ public class RabbitController : Animal
     // POLYMORPHISM - Rabbit class overrides virtual methods inherited from Animal class
     public override void Walk() 
     {
-        // Player.Health -= 2;
-        // CommitPettyTheft();
-        Debug.Log("Rabbit is walking");
+        animator.SetTrigger("run");
     }
     public override void Jump()
     {
