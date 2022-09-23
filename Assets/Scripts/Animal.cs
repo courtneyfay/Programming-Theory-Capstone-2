@@ -9,7 +9,6 @@ public class Animal : MonoBehaviour
     public virtual void Walk()
     {
         // make the animal walk
-        // Player.Health -= 10;
         Debug.Log("Animal is walking");
     }
 

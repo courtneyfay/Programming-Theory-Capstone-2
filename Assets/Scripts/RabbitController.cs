@@ -20,8 +20,6 @@ public class RabbitController : Animal
     }
     public override void Jump()
     {
-        // make the animal jump
-        Debug.Log("Rabbit is jumping");
         rb.AddForce(Vector3.up * 300f);
     }
 }

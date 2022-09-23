@@ -20,18 +20,6 @@ public class FoxController : Animal
     }
     public override void Jump()
     {
-        // make the animal jump
-        Debug.Log("Fox is jumping");
         rb.AddForce(Vector3.up * 700f);
     }
-
-    
-
-    // private void Update()
-    // {
-    //     if (Player.isSeen)
-    //     {
-    //         DealDamage(); // method from parent class can be called
-    //     }
-    // }
 }
